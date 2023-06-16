@@ -12,3 +12,10 @@ console.log("Network Interface" + JSON.stringify(os.networkInterfaces()));
 
 console.log("OS default temp dir " + os.tmpdir ());
 
+
+console.log("Host name" + os.hostname());
+
+
+console.log("OS type" + os.type());
+
+console.log("Platform " + os.platform());
